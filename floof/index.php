@@ -6,8 +6,8 @@ if ($files) {
     $FOX_NUM = count($files);
     $random_fox_index = rand(1, $FOX_NUM);
 
-    $image_path = 'http://randomfox.ca/images/'.$random_fox_index.'.jpg';
-    $link = 'http://randomfox.ca/?i='.$random_fox_index;
+    $image_path = 'https://fluffa.herokuapp.com/images/'.$random_fox_index.'.jpg';
+    $link = 'https://fluffa.herokuapp.com/?i='.$random_fox_index;
 } else {
     $image_path = null;
     $link = null;
